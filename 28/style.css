@@ -72,3 +72,6 @@ nav a{
     width: 30%;
     margin-left: 10px;
 }
+.main-content2 li{
+    list-style: none;
+}
