@@ -62,12 +62,16 @@ nav a{
     color: #333333;
     border: 2px solid #e3adc1;
     border-radius: 10px;
-    margin-top: 8%;
+    margin-top: 5%;
     margin-bottom: 10%;
     margin-left: auto;
     margin-right: auto;
     padding: 10px 10px 10px 20px;
     box-sizing: border-box;
+}
+.main-content2 h3{
+    color: #941f57;
+    margin: 10px;
 }
 .main-content2 img{
     width: 30%;
