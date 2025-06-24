@@ -25,7 +25,6 @@ nav a{
     text-decoration: none;
     color: #941f57;
 }
-
 #top-content{
     background-color: #fff9f9;
     display: flex;
@@ -55,7 +54,6 @@ nav a{
 .main-content li{
     list-style: none;
 }
-
 .main-content2{
     width: 80%;
     background-color: #ffffff;
