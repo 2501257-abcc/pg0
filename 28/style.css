@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: #fff9f9;
 }
 nav{
     background-color: #f5ecf4;
@@ -26,7 +27,7 @@ nav a{
 }
 
 #top-content{
-    background-color: #ffffff;
+    background-color: #fff9f9;
     display: flex;
     margin: 0;
 }
@@ -71,6 +72,8 @@ nav a{
 .main-content2 img{
     width: 30%;
     margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid #1e50a2;
 }
 .main-content2 li{
     list-style: none;
