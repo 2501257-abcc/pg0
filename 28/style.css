@@ -1,12 +1,13 @@
 body{
     margin: 0;
-    background-color: #fff9f9;
+    text-align: center;
+    background-color: #ffffff;
     font-family: 'Bradley Hand ITC','Meiryo UI';
 }
 nav{
-    background-color: #f5ecf4;
+    background-color: #eaf4fc;
     color: #941f57;
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
 }
@@ -25,62 +26,51 @@ nav a{
     text-decoration: none;
     color: #941f57;
 }
-#top-content{
-    background-color: #fff9f9;
-    display: flex;
-    margin: 0;
-}
+
+/*home.html*/
 #top-content img{
-    width: 15%;
-    height: 15%;
-    margin: 10% 0 0 5%;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .main-content{
-    width: 80%;
     background-color: #ffffff;
-    color: #333333;
-    border: 2px solid #e3adc1;
+    border: #eaf4fc;
+    border: 1px solid #765c47;
     border-radius: 10px;
-    margin: 13% 5% 10% 5%;
-    padding: 10px 10px 5px 20px;
-    box-shadow: 0 0 4px #e3adc1;
-}
-.main-content img{
-    width: 30%;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
 }
 .main-content h3{
+    background-color: #fff9fc;
     color: #941f57;
-    margin: 10px;
+    border-radius: 5px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .main-content li{
     list-style: none;
-}
-.main-content2{
-    width: 80%;
-    background-color: #ffffff;
-    color: #333333;
-    border: 2px solid #e3adc1;
-    border-radius: 10px;
-    margin-top: 6%;
-    margin-bottom: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px 10px 10px 20px;
+    text-align: left;
+    padding-left: 100px;
     box-sizing: border-box;
-    box-shadow: 0 0 4px #e3adc1;
 }
-.main-content2 h3{
-    color: #941f57;
-    margin: 10px;
+/*HOMETOWN*/
+.top-content2{
+    color: #333333;
+    margin-top: 90px;
+    box-sizing: border-box;
 }
-.main-content2 img{
-    width: 30%;
-    margin-left: 10px;
-    border-radius: 10px;
-    box-shadow: 0 0 4px #1e50a2;
-}
-.main-content2 li{
-    list-style: none;
+
+
+/*disney.html*/
+.home-div{
+    color: #333333;
+    margin-top: 90px;
+    box-sizing: border-box;
 }
 .main-content3{
     width: 100%;
@@ -88,17 +78,20 @@ nav a{
     flex-wrap: nowrap;
     justify-content: center;
     box-sizing: border-box;
+    margin-bottom: 10%;
 }
 .img-top{
+    background-color: #ffffff;
+    color: #765c47;
     width: 25%;
     padding: 10px 20px 10px 20px;
-    margin-top: 10%;
     margin-left: 2%;
     margin-right: 2%;
     box-sizing: border-box;
     border: 1px solid #bfbfbf;
     text-align: center;
     border-radius: 10px;
+    box-shadow: 0 0 5px #e2d2ea;
 }
 .img-top img{
     width: 100%;
