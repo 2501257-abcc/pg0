@@ -7,7 +7,7 @@ body{
 nav{
     background-color: #eaf4fc;
     color: #2e1c48;
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
 }
